@@ -32,6 +32,7 @@ namespace SuperShortLink.UnitTests
         {
             var shortLink = await _apiService.GenerateAsync("https://www.baidu.com");
             Assert.NotNull(shortLink);
+
         }
     }
 }
